@@ -6,7 +6,7 @@ const WordRelay = () => {
   const [word, setWord] = useState('제로초');
   const [value, setValue] = useState('');
   const [result, setResult] = useState('');
-  const inputRef = useRef();
+  const inputRef = useRef(null);
 
   const onSubmitForm = (e) => {
     e.preventDefault();
